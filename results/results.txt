@@ -10,17 +10,17 @@ Filtered Data (Year > 2015):
     Unnamed: 0                               Name Location  Year  Kilometers_Driven  Fuel_Type  Transmission Owner_Type  Mileage  Engine    Power  Seats  New_Price  Price  Current_Age
 5            7  Toyota Innova Crysta 2.8 GX AT 8S   Mumbai  2016              36000        1.0             0      First   1136.0  2755.0   1715.0    8.0       21.0  17.50            8
 8           10                   Maruti Ciaz Zeta    Kochi  2018              25692        0.0             1      First   2156.0  1462.0  10325.0    5.0     1065.0   9.95            6
-14          16              Honda Amaze S i-Dtech    Kochi  2016              58950        1.0             1      First    258.0  1498.0    986.0    5.0        NaN   5.40            8
-15          17              Maruti Swift DDiS VDI   Jaipur  2017              25000        1.0             1      First    284.0  1248.0     74.0    5.0        NaN   5.99            7
+14          16              Honda Amaze S i-Dtech    Kochi  2016              58950        1.0             1      First    258.0  1498.0    986.0    5.0      478.0   5.40            8
+15          17              Maruti Swift DDiS VDI   Jaipur  2017              25000        1.0             1      First    284.0  1248.0     74.0    5.0      478.0   5.99            7
 26          28                Honda WRV i-VTEC VX    Kochi  2018              37430        0.0             1      First    175.0  1199.0    887.0    5.0     1057.0   9.90            6
 
 Renamed Columns:
    Unnamed: 0                              Name    Location  Year  Kilometers_Driven  Fuel_Type  Transmission Owner_Type  Fuel_Efficiency  Engine  Engine_Power  Seats  New_Price  Price  Current_Age
-0           1  Hyundai Creta 1.6 CRDi SX Option        Pune  2015              41000        1.0             1      First           1967.0  1582.0        1262.0    5.0        NaN  12.50            9
+0           1  Hyundai Creta 1.6 CRDi SX Option        Pune  2015              41000        1.0             1      First           1967.0  1582.0        1262.0    5.0      478.0  12.50            9
 1           2                      Honda Jazz V     Chennai  2011              46000        0.0             1      First             13.0  1199.0         887.0    5.0      861.0   4.50           13
-2           3                 Maruti Ertiga VDI     Chennai  2012              87000        1.0             1      First           2077.0  1248.0        8876.0    7.0        NaN   6.00           12
-3           4   Audi A4 New 2.0 TDI Multitronic  Coimbatore  2013              40670        1.0             0     Second            152.0  1968.0        1408.0    5.0        NaN  17.74           11
-4           6            Nissan Micra Diesel XV      Jaipur  2013              86999        1.0             1      First           2308.0  1461.0         631.0    5.0        NaN   3.50           11
+2           3                 Maruti Ertiga VDI     Chennai  2012              87000        1.0             1      First           2077.0  1248.0        8876.0    7.0      478.0   6.00           12
+3           4   Audi A4 New 2.0 TDI Multitronic  Coimbatore  2013              40670        1.0             0     Second            152.0  1968.0        1408.0    5.0      478.0  17.74           11
+4           6            Nissan Micra Diesel XV      Jaipur  2013              86999        1.0             1      First           2308.0  1461.0         631.0    5.0      478.0   3.50           11
 
 New Column 'Age':
                                Name  Year  Age
@@ -33,10 +33,10 @@ New Column 'Age':
 Sorted by Price:
       Unnamed: 0                                         Name    Location  Year  Kilometers_Driven  Fuel_Type  Transmission Owner_Type  Mileage  Engine   Power  Seats  New_Price   Price  Current_Age  Age
 3952        4079  Land Rover Range Rover 3.0 Diesel LWB Vogue   Hyderabad  2017              25000        1.0             0      First   1333.0  2993.0   255.0    5.0       23.0  160.00            7    7
-5620        5781                   Lamborghini Gallardo Coupe       Delhi  2011               6500        0.0             0      Third     64.0  5204.0   560.0    2.0        NaN  120.00           13   13
-5752        5919                       Jaguar F Type 5.0 V8 S   Hyderabad  2015               8000        0.0             0      First    125.0  5000.0  4881.0    2.0        NaN  100.00            9    9
+5620        5781                   Lamborghini Gallardo Coupe       Delhi  2011               6500        0.0             0      Third     64.0  5204.0   560.0    2.0      478.0  120.00           13   13
+5752        5919                       Jaguar F Type 5.0 V8 S   Hyderabad  2015               8000        0.0             0      First    125.0  5000.0  4881.0    2.0      478.0  100.00            9    9
 1457        1505              Land Rover Range Rover Sport SE       Kochi  2019              26013        1.0             0      First   1265.0  2993.0   255.0    5.0      139.0   97.07            5    5
-1917        1974                           BMW 7 Series 740Li  Coimbatore  2018              28060        0.0             0      First   1205.0  2979.0   320.0    5.0        NaN   93.67            6    6
+1917        1974                           BMW 7 Series 740Li  Coimbatore  2018              28060        0.0             0      First   1205.0  2979.0   320.0    5.0      478.0   93.67            6    6
 
 Summary Statistics (Mean Price by Fuel Type):
 Fuel_Type
